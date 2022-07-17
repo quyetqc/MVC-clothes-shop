@@ -1,0 +1,81 @@
+<div class="app">
+        <div class="grid">
+            <div class="container-cart l-8 l-o-2">
+                <div class="hearder">
+                    <h1>Giỏ hàng của bạn</h1>
+                </div>
+                <div class="hearder-content">
+                    <p>Có 1 sản phẩm trong giỏ hàng</p>
+                </div>
+                <div class="hearder-note">
+                    <div class="warning">Sản phẩm mua được phép đổi trong vòng 7 ngày (tính từ ngày quý khách nhận được hàng). Chúng tôi không chấp nhận hủy đơn hàng.</div>
+                </div>
+                <div class="main wide">
+                    <div class="row">
+        
+                        <div class="l-7 col">
+                        {{#each ProductCarts}}
+                        <div class="main-product">
+                        <div class="main-product-img">
+                            <img class="main-product-img-main style-img-list-pro" src="{{this.image}}" alt="">
+                        </div>
+                        <div class="main-product-text">
+                            <div class="main-product-fullname">
+                                <div class="main-product-fullname-text information-name-pro">{{this.name}}</div>
+                                <div class="main-product-fullname-delete "><i class="fa-solid fa-xmark"></i></div>
+                            </div>
+                            <div class="main-product-price information-price-pro">{{this.price}}</div>
+                            <div class="main-product-size">Blue/S</div>
+                        </div>
+                        </div>
+                        {{/each}}
+                        </div>
+                      
+                        <div class="l-5 col">
+                            <div class="main-information">
+                        <div class="main-information-header">
+                            Thông tin đơn hàng
+                        </div>
+                        <div class="main-information-price">
+                            <div class="main-information-price-text">
+                                Tổng tiền:
+                            </div>
+                            <div class="main-information-price-number"></div>
+                        </div>
+                            <div class="main-information-footer">
+                                <div class="main-information-footer-content">
+                                    <div>Phí vận chuyển sẽ được tính ở trang thanh toán.</div>
+                                    <div>Bạn cũng có thể nhập mã giảm giá ở trang thanh toán.</div>
+                                </div>
+                            </div>
+                            <div class="main-information-footer-customer">
+                                <div class="main-information-footer-customer-content">
+                                        Thân Gửi Quý Khách Hàng:
+                                </div>
+                                <div class="main-information-footer-customer-body">
+                                    <div class="customer-body-1">
+                                        Sản phẩm mua được phép đổi trong vòng 7 ngày (tính từ ngày quý khách nhận được hàng). Chúng tôi không chấp nhận hủy đơn hàng.
+                                    </div>
+                                    <div class="customer-body-2">
+                                        Chính sách đổi trả này chỉ áp dụng đối với SẢN PHẨM NGUYÊN GIÁ, không áp dụng đối với các sản phẩm ƯU ĐÃI.  
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="main-information-footer-payment">
+                                    <button class="payment-button">THANH TOÁN</button>
+                                </div>
+                                <div class="main-information-footer-backhome">
+                                    <a href="/" class="main-information-footer-backhome-link">Tiếp tục mua hàng</a>
+                                </div>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+</div>
+<script>
+   
+</script>

@@ -1,0 +1,39 @@
+<div class="app">
+    <div class="grid">
+        <div class="container-create grid l-10">
+            <div class="content">
+                <h1>Tạo sản phẩm</h1>
+            </div>
+            <form method="POST" action="/collections/store">
+                <div class="nameproduct">
+                    <label class="nameproduct-text" for="name">
+                        Tên sản phẩm
+                    </label>
+                    <input type="text" class="nameproduct-input" id="name" name="name">
+                </div>
+                <div class="imgproduct">
+                    <label class="imgproduct-text" for="image">
+                        Hình sản phẩm
+                    </label>
+                    <input type="text" class="imgproduct-input" id="image" name="image">
+                </div>
+                <div class="priceproduct">
+                    <label class="priceproduct-text" for="price">
+                        Giá sản phẩm
+                    </label>
+                    <input type="text" class="priceproduct-input" id="price" name="price">
+                </div>
+                <div class="codeproduct">
+                    <label class="codeproduct-text" for="code">
+                        Mã sản phẩm
+                    </label>
+                    <input type="text" class="codeproduct-input" id="code" name="code">
+                </div>
+
+                <div class="submit">
+                    <button type="submit" class="submit-button">Thêm sản phẩm</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

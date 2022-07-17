@@ -1,0 +1,265 @@
+.container-product{
+    margin-top: 200px;
+}
+.style-img-list{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.style-img-list:focus ~ .style-img-list{
+    border: 1px solid black;
+}
+.style-main-img{
+    width: 100%;
+}
+/* imformation */
+.information-logo{
+    width: 200px;
+    height: 39px;
+}
+.information-logo-freelancer{
+    width: 100%;
+}
+.information-name{
+    display: block;
+    margin: 40px 0;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 100px;
+}
+.information-price{
+    display: block;
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+    margin: 40px 0;
+}
+.information-code{
+    display: block;
+    font-size: 15px;
+}
+.information-note{
+    display: block;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+}.information-color{
+    height: 50px;
+    /* background-color: black; */
+}
+.information-size-text{
+    display: block;
+    font-size: 15px;
+}
+.information-color-box{
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.click-choose .information-color-box{
+    border: 1px solid red;
+}
+.information-support{
+    display: block;
+    border: 1px solid black;  
+    border-radius: 10px;
+    width: 280px;
+    margin: 5px 0;
+}
+.information-support-link{
+    text-decoration: none;
+}
+.information-support-icon{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.information-support-text{
+    
+    color: black;
+    font-size: 20px;
+}
+.information-size{
+    height: 50px;
+    margin: 20px 0;
+}
+.information-size-text{
+    font-size: 15px;
+}
+.information-size-button{
+    display: inline-flex;
+    align-items: center;
+}
+.information-size-button-box{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border: 1px solid black;
+    height: 35px;
+    position: relative;
+}
+.information-size-button-type{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.information-size-button-icon{
+    position: absolute;
+    right: 5px;
+    font-size: 15px;
+}
+.information-size-heart{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.information-input{
+    display: flex;
+    height: 30px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.click-input{
+    width: 80px;
+    height: 30px;
+}
+.information-input-icon{
+    font-size: 15;
+    width: 30px;
+    margin-left: 10px;
+}
+/* button buy add */
+.information-button{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.information-button-buy{
+    width: 160px;
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.information-button-add{
+    text-align: center;
+    line-height: 40px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* infomation product */
+.information-product-box{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: beige;
+    height: 35px;
+    align-items: center;
+    cursor: pointer;
+}
+.information-product-header{
+    margin-left: 10px;
+    font-weight: bold;
+}
+.information-product-icon{
+    position: absolute;
+    right: 5px;
+}
+.information-product-container{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.dd-product + .dd-menu-product{
+    display: none;
+}
+.dd-product:checked + .dd-menu-product{
+    display: block;
+}
+.dd-product{
+    display: none;
+}
+.container-create{
+    margin: auto;
+    position: relative;
+    top: 180px;
+    width: 600px;
+    height: 800px;
+}
+.content{
+    text-align: center;
+    font-size: 35px;
+}
+.nameproduct{
+    display: flex;
+    margin: 30px 0;
+    font-size: 25px;
+    height: 40px;
+    align-items: center;
+}
+.nameproduct-text{
+    width: 30%;
+}
+.nameproduct-input{
+    margin: 0 10px;
+    width: 70%;
+    height: 30px;
+}
+.priceproduct{
+    display: flex;
+    margin: 30px 0;
+    font-size: 25px;
+    height: 40px;
+    align-items: center;
+}
+.priceproduct-text{
+    width: 30%;
+}
+.priceproduct-input{
+    margin: 0 10px;
+    width: 70%;
+    height: 30px;
+}
+.imgproduct{
+    display: flex;
+    margin: 30px 0;
+    font-size: 25px;
+    height: 40px;
+    align-items: center;
+}
+.imgproduct-text{
+    width: 30%;
+}
+.imgproduct-input{
+    margin: 0 10px;
+    width: 70%;
+    height: 30px;
+}
+.codeproduct{
+    display: flex;
+    margin: 30px 0;
+    font-size: 25px;
+    height: 40px;
+    align-items: center;
+}
+.codeproduct-text{
+    width: 30%;
+}
+.codeproduct-input{
+    margin: 0 10px;
+    width: 70%;
+    height: 30px;
+}
